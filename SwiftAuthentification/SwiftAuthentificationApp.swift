@@ -19,7 +19,7 @@ struct SwiftAuthentificationApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView()
         }
     }
 }

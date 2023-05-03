@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890E57332A02004D00B4DF42 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E57322A02004D00B4DF42 /* RootView.swift */; };
+		890E57372A0202FC00B4DF42 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890E57362A0202FC00B4DF42 /* SettingsView.swift */; };
 		8933E1C429FFED2800034EA4 /* AuthentificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933E1C329FFED2800034EA4 /* AuthentificationView.swift */; };
 		8933E1C829FFEE9800034EA4 /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933E1C729FFEE9800034EA4 /* SignInEmailView.swift */; };
 		8933E1CA29FFF23000034EA4 /* AuthentificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8933E1C929FFF23000034EA4 /* AuthentificationManager.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		890E57322A02004D00B4DF42 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		890E57362A0202FC00B4DF42 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		8933E1C329FFED2800034EA4 /* AuthentificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationView.swift; sourceTree = "<group>"; };
 		8933E1C729FFEE9800034EA4 /* SignInEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
 		8933E1C929FFF23000034EA4 /* AuthentificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthentificationManager.swift; sourceTree = "<group>"; };
@@ -47,8 +51,10 @@
 		8933E1C029FFEC7B00034EA4 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
+				890E57322A02004D00B4DF42 /* RootView.swift */,
 				8933E1C329FFED2800034EA4 /* AuthentificationView.swift */,
 				8933E1C729FFEE9800034EA4 /* SignInEmailView.swift */,
+				890E57362A0202FC00B4DF42 /* SettingsView.swift */,
 				8933E1C929FFF23000034EA4 /* AuthentificationManager.swift */,
 			);
 			path = Auth;
@@ -169,8 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				890E57372A0202FC00B4DF42 /* SettingsView.swift in Sources */,
 				89F6E4A229F9AB9800558BD2 /* ContentView.swift in Sources */,
 				89F6E4A029F9AB9800558BD2 /* SwiftAuthentificationApp.swift in Sources */,
+				890E57332A02004D00B4DF42 /* RootView.swift in Sources */,
 				8933E1C429FFED2800034EA4 /* AuthentificationView.swift in Sources */,
 				8933E1C829FFEE9800034EA4 /* SignInEmailView.swift in Sources */,
 				8933E1CA29FFF23000034EA4 /* AuthentificationManager.swift in Sources */,
